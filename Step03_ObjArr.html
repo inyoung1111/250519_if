@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step03_ObjArr.html</title>
+</head>
+<body>
+    <button onclick="test()">CLICK</button>
+<script>
+    var members = [
+        {num:1, name:'짱구',addr:'서울'},
+        {num:2, name:'짱아',addr:'안양'},
+        {num:3, name:'철수',addr:'부산'},
+    ]
+    var test = function(){
+       
+        members['2'].addr = '팡팡유치원';
+        
+        console.log(members);
+
+        members[1].name = '맹구';
+
+        var mem = {num : 4, name: '이름', addr : 'sbs아카데미'};
+        members.push(mem);
+        members.splice(2,1);
+        console.log(members);
+
+    }
+
+    //1.철수의 주소를 '팡팡유치원'으로 변경 
+
+</script>
+
+</body>
+</html>
