@@ -10,13 +10,31 @@
     <button onclick="send()">CLICK</button>
     <script>
         var msgs = [];
-        var sebd = function(){
+        var send = function(){
             //1.input태그의 value값을 가져와서
             //2. 배열에 저장
+
+
             //3.alert로 '배열로 저장했습니다. '
             //4. 콘솔창에 msgs 출력
             //5.. input에 입력된 값 빈 텍스트로 변경 
+
+            var input = document.getElementById('inputMsg');
+            var value = input.value;
+
+ 
+            if (value.trim() !== '') {
+                msgs.push('value'); // 1, 2. 배열에 저장
+                alert('배열로 저장했습니다.'); // 3. 알림
+                console.log('msgs'); // 4. 콘솔에 출력
+                document.querySelector('#inputMsg')
+            } else {
+                alert('값을 입력해주세요.');
+            }
         }
+        
+
+       
     </script>
 ></body>
 </html>

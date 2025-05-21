@@ -35,4 +35,5 @@ console.log('poke1.level.innerHTML--------');
 if(parseInt(poke1.level.innerHTML) >= 10){
 	poke1.name.innerHTML = '이상해풀';
 	poke.img.src = 'icone01_3.png'
+	
 }

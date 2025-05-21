@@ -8,17 +8,30 @@
 <body>
     <div id ="one"></div>
     <script>
-        var result = prompt('임의의 정수를 입력');
-        var num = parseInt(result);
+//         var result = prompt('임의의 정수를 입력');
+//         var num = parseInt(result);
 
-        if(num%2 == 0){
-            document.querySelector('#one').innerHTML= '짝수입력';
+//         if(num%2 == 0){
+//             document.querySelector('#one').innerHTML= '짝수입력';
            
-        }else{
-            document.querySelector('#one').innerHTML= '홀수입력';
-4
+//         }else{
+//             document.querySelector('#one').innerHTML= '홀수입력';
+// 
 
-        }
+//         }
+
+// 나머지 연산자 num에서 나누기 2 %사용
+var result = prompt('임의의 정수를 입력');
+var num = parseInt(result);
+
+if(num%2 == 0){
+    document.querySelector('#one').innerHTML = '짝수입력';
+}else {
+    document.querySelector('#one').innerHTML = '홀수입력';
+}
+
+
+
 
     </script>
 </body>

@@ -10,25 +10,46 @@
 
     </button>
     <script>
-        var input = function(){
-            console.log('점수를 입력해주세요.')
+        // var input = function(){
+        //     console.log('점수를 입력해주세요.')
             
-            var inputNum = prompt ('점수를 입력하세요.', 0);
-            console.log (inputNum);
+        //     var inputNum = prompt ('점수를 입력하세요.', 0);
+        //     console.log (inputNum);
+
+        //     var jumsu = parseInt(inputNum);
+
+        //     if(jumsu >= 90) {
+        //         console.log('A');
+        //     } else if (jumsu >= 80){
+        //         console.log('B');
+        //     }else {
+        //         console.log('F');
+        //     }
+
+        // }
+
+
+        var input = function(){
+            // console.log('점수를 입력해주세요.')
+            var inputNum = prompt ('점수를 입력하세요', 0);
+            console.log(inputNum);
 
             var jumsu = parseInt(inputNum);
 
-            if(jumsu >= 90) {
-                console.log('A');
+            //점수가 90이면 A 80이면 B 도 아니라면 F
+            if(jumsu >= 90){
+                console.log ('A');
             } else if (jumsu >= 80){
                 console.log('B');
-            }else {
+            }else{
                 console.log('F');
             }
-
         }
+
+
+
     </script>
-    <!-- 클릭할 때 마다 함수 실행 onclick
+    <!-- 클릭할 때 마다 함수 실행 onclick input이라는 함수
     
     prompt 무언가를 입력하고 확인을 누르면 inputNum0 대입 
 

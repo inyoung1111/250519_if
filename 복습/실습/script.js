@@ -33,3 +33,46 @@
 
 	완성되었다면 html에서 이상해씨, 파이리, 꼬부기 레벨을 바꿔보면서 제대로 작동하는지 확인해보세요~
 */
+
+// document.getElementById("id") #제외하고
+// var level1 = document.getElementById('level1');
+// var level1 = document.getElementById('level2');
+// var level1 = document.getElementById('level3');
+
+// console.log('level1');
+
+// if(parseInt(level1.innerHTML) >= 10){
+// 	console.log('1번 진화해!');
+// }
+// document.getElementById('name1').innerHTML = '이상해풀';
+// document.getElementById('cha1').src = 'icon01_2.png';
+
+// if(parseInt(level2.innerHTML) >= 10){
+// 	console.log('1번 진화해!');
+// }
+// document.getElementById('name1').innerHTML = '리자드';
+// document.getElementById('cha1').src = 'icon02_2.png';
+
+// if(parseInt(level3.innerHTML) >= 10){
+// 	console.log('1번 진화해!');
+// }
+// document.getElementById('name1').innerHTML = '어니부기';
+// document.getElementById('cha1').src = 'icon01_2.png';
+
+
+var level = document.querySelector('level');
+//level1 변수를 생성
+//2. level1 변수에 이상해씨의 레벨(#level1)을 넣으세요.
+
+// if(parseInt)(level.innerHTML) >= 10 {
+// 	console.log('진화');
+// }
+
+if(parseInt(level.innerHTML)>= 10){
+	console.log('진화');
+}
+
+
+//만약 레벨(#level1)이 10이상이면 1번 진화(이상해풀)
+
+
